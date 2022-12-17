@@ -1,0 +1,10 @@
+[package]
+name = "legendary-eureka"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+v8 = "0.60.0"
+clearscreen = "1.0.10"
+gethostname = "0.4.1"
+cpuid = "0.1.1"
