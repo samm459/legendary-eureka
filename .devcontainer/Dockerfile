@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+ENV TZ=America/New_York
+
 # Install Rust and dependencies
 RUN apt-get update && \
     apt-get install -y curl build-essential pkg-config zsh && \
