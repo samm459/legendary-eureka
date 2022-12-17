@@ -1,0 +1,11 @@
+{
+    "name": "Rust V8 Extension",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "ms-vscode.vscode-remote-extensionpack",
+        "ms-python.python"
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+    },
+}
