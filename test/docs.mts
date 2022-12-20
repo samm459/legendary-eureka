@@ -14,14 +14,13 @@
 
 // Process
 // ------------------------------------------------
-// Process.pid -- The pid of the current process
-// Process.stdin -- An async iterator that yields a string each time the stdin on the process is written to
+// Process.id -- The pid of the main process
+// Process.stdinSync -- An syncronous, blocking iterator over the stdin of the process
 
 // File
 // ------------------------------------------------
-// File.open -- Read the contents of a file
-// Files.constructor -- create a new file object
+// File.readSync(filename) -- Syncronously read a file
 
 // Network
 // -------------------------------------------------
-// Network.bind -- Bind
+// Network.bindSync(port) -- Syncronously bind to a port on the machine, returns a SyncServer, which is an iterator
